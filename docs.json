@@ -1,13 +1,31 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "quill",
+  "name": "ModuleX AI",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#1A1A1A",
+    "light": "#F5F5F5",
+    "dark": "#0D0D0D",
+    "background": {
+      "light": "#FFFFFF",
+      "dark": "#1A1A1A"
+    }
   },
   "favicon": "/favicon.svg",
+  "font": {
+    "headings": {
+      "family": "Inter",
+      "weight": 500
+    },
+    "body": {
+      "family": "Inter"
+    }
+  },
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": false
+  },
+  "rounded": "default",
   "navigation": {
     "tabs": [
       {
@@ -72,13 +90,13 @@
       "anchors": [
         {
           "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "href": "https://modulex.ai/docs",
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "GitHub",
+          "href": "https://github.com/ModuleXAI",
+          "icon": "github"
         }
       ]
     }
@@ -91,32 +109,40 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@modulex.ai"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://app.modulex.ai"
     }
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/modulexai",
+      "github": "https://github.com/ModuleXAI",
+      "linkedin": "https://linkedin.com/company/modulexai"
+    }
+  },
+  "codeBlock": {
+    "mode": "auto"
+  },
+  "appearance": {
+    "sidebar": {
+      "style": "default"
     }
   }
 }
