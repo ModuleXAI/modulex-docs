@@ -1,31 +1,17 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "quill",
+  "theme": "maple",
   "name": "ModuleX AI",
   "colors": {
     "primary": "#1A1A1A",
     "light": "#F5F5F5",
-    "dark": "#0D0D0D",
-    "background": {
-      "light": "#FFFFFF",
-      "dark": "#1A1A1A"
-    }
+    "dark": "#0D0D0D"
   },
   "favicon": "/favicon.svg",
-  "font": {
-    "headings": {
-      "family": "Inter",
-      "weight": 500
-    },
-    "body": {
-      "family": "Inter"
-    }
-  },
   "modeToggle": {
     "default": "dark",
     "isHidden": false
   },
-  "rounded": "default",
   "navigation": {
     "tabs": [
       {
@@ -135,14 +121,6 @@
       "x": "https://x.com/modulexai",
       "github": "https://github.com/ModuleXAI",
       "linkedin": "https://linkedin.com/company/modulexai"
-    }
-  },
-  "codeBlock": {
-    "mode": "auto"
-  },
-  "appearance": {
-    "sidebar": {
-      "style": "default"
     }
   }
 }
